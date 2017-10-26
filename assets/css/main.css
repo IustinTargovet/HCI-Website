@@ -696,8 +696,8 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
-		padding-left: 1em;
+		margin: 0 0 3rem 0;
+		padding-left: 2em;
 	}
 
 		ul li {
@@ -741,7 +741,7 @@
 					height: 2.25rem;
 					line-height: 2.25rem;
 					text-align: center;
-					width: 2.25rem;
+					width: 2rem;
 				}
 
 					ul.icons li a:hover {
@@ -1238,8 +1238,8 @@
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 4px;
+			border-bottom-width: 4px;
 			max-width: 100%;
 		}
 
@@ -1277,7 +1277,7 @@
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
-			border-radius: 4px;
+			border-radius: 0px;
 		}
 
 			#header nav ul li {
@@ -1479,9 +1479,9 @@
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(4, 15, 50, 0.5);
 			border-radius: 4px;
-			opacity: 0;
+			opacity: 1;
 		}
 
 			#main article.active {
