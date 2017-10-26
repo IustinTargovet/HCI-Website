@@ -1525,7 +1525,7 @@
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(255, 255, 100, 0.075);
 				}
 
 				#main article .close:active:before {
