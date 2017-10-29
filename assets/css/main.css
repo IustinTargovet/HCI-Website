@@ -882,13 +882,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #ffffff;
+			
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
+				
 			}
 
 		table td {
