@@ -125,7 +125,65 @@
 								<h2 class="major">User Requirements</h2>
 								
 								<p>Next we gathered data from some potential users, by sending out a questionnaire via Facebook and asking students who were interested in the Study Abroad program to fill it in. We went through several iterations of questionnaire, using Interaction Design - Beyond HCI to design effective questions. The results of the questionnaire were: </p>
-								
+								<div class="slideshow-container">
+                                  <div class="mySlides fade">
+                                    <img src="images/Q1.png" style="width:50%; margin-left: 25%">
+                                  </div>
+                                  <div class="mySlides fade">
+                                    <img src="images/Q2.png" style="width:50%; margin-left: 25%"></div>
+                                    <div class="mySlides fade">
+                                    <img src="images/Q3.png" style="width:50%; margin-left: 25%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/Q4.png" style="width:50%; margin-left: 25%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/Q5.png" style="width:50%; margin-left: 25%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/Q6.png" style="width:50%; margin-left: 25%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/Q7.png" style="width:50%; margin-left: 25%">
+                                     </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/Q8.png" style="width:50%; margin-left: 25%">
+                                    </div>
+
+                                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                </div>
+                                <br>
+
+                                
+                                
+                                <style></style>
+                                <script>var slideIndex = 1;
+                                showSlides(slideIndex);
+
+                                function plusSlides(n) {
+                                  showSlides(slideIndex += n);
+                                }
+
+                                function currentSlide(n) {
+                                  showSlides(slideIndex = n);
+                                }
+
+                                function showSlides(n) {
+                                  var i;
+                                  var slides = document.getElementsByClassName("mySlides");
+                                  var dots = document.getElementsByClassName("dot");
+                                  if (n > slides.length) {slideIndex = 1} 
+                                  if (n < 1) {slideIndex = slides.length}
+                                  for (i = 0; i < slides.length; i++) {
+                                      slides[i].style.display = "none"; 
+                                  }
+                                  for (i = 0; i < dots.length; i++) {
+                                      dots[i].className = dots[i].className.replace(" active", "");
+                                  }
+                                  slides[slideIndex-1].style.display = "block"; 
+                                  dots[slideIndex-1].className += " active";
+                                }</script>
 								<br>
 								<a href="#user2">More On: User Requirements</a>
 							</article>
@@ -162,11 +220,65 @@
 							<article id="personas">
 								<h2 class="major">Personas</h2>
 								<p>After establishing our requirements, we created 3 user personas for 3 different potential student users; a first-year student, a second-year student, and an international student. We used the book Making Use: Scenario-Based Design of Human-Computer Interactions to design the personas, and they can be found below: </p>
-                                <ul>
-								<li><a href="#Amy">Amy Wilson</a></li>
-								<li><a href="#Johnny">Johnny Dempsey</a></li>
-								<li><a href="#Eddie">Eddie Dixon</a></li>
-								</ul>
+                                
+                                <div class="slideshow-container">
+                                  <div class="mySlides fade">
+                                    <div class="numbertext">1 / 3</div>
+                                    <img src="images/Amy.png" style="width:100%">
+                                    <div class="text">Amy Wilson</div>
+                                  </div>
+
+                                  <div class="mySlides fade">
+                                    <div class="numbertext">2 / 3</div>
+                                    <img src="images/Johnny.png" style="width:100%">
+                                    <div class="text">Johnny Dempsey</div>
+                                  </div>
+
+                                  <div class="mySlides fade">
+                                    <div class="numbertext">3 / 3</div>
+                                    <img src="images/Eddie.png" style="width:100%">
+                                    <div class="text">Eddie Dixon</div>
+                                  </div>
+
+                                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                </div>
+                                <br>
+
+                                <div style="text-align:center">
+                                  <span class="dot" onclick="currentSlide(1)"></span> 
+                                  <span class="dot" onclick="currentSlide(2)"></span> 
+                                  <span class="dot" onclick="currentSlide(3)"></span> 
+                                </div>
+                                
+                                <style></style>
+                                <script>var slideIndex = 1;
+                                showSlides(slideIndex);
+
+                                function plusSlides(n) {
+                                  showSlides(slideIndex += n);
+                                }
+
+                                function currentSlide(n) {
+                                  showSlides(slideIndex = n);
+                                }
+
+                                function showSlides(n) {
+                                  var i;
+                                  var slides = document.getElementsByClassName("mySlides");
+                                  var dots = document.getElementsByClassName("dot");
+                                  if (n > slides.length) {slideIndex = 1} 
+                                  if (n < 1) {slideIndex = slides.length}
+                                  for (i = 0; i < slides.length; i++) {
+                                      slides[i].style.display = "none"; 
+                                  }
+                                  for (i = 0; i < dots.length; i++) {
+                                      dots[i].className = dots[i].className.replace(" active", "");
+                                  }
+                                  slides[slideIndex-1].style.display = "block"; 
+                                  dots[slideIndex-1].className += " active";
+                                }</script>
+                                                                    
 								<a href="#scenarios">Next: User Scenarios</a>
                             </article>
                         <!-- Amy -->
