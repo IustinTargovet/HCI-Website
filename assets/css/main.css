@@ -878,7 +878,7 @@
 
 	table {
 		margin: 0 0 2rem 0;
-		width: 100%;
+		width: 85%;
 	}
 
 		table tbody tr {
@@ -892,7 +892,7 @@
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0;
 		}
 
 		table th {
