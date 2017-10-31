@@ -1479,6 +1479,7 @@
 			position: relative;
 			width: 60rem;
 			max-width: 100%;
+			max-height: 38rem;
 			background-color: rgba(4, 15, 50, 0.5);
 			border-radius: 4px;
 			opacity: 1;
