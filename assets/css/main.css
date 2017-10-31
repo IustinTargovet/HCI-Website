@@ -1533,7 +1533,6 @@
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-
 		@media screen and (max-width: 736px) {
 
 			#main article {
@@ -1593,6 +1592,7 @@
 
 		body.is-loading #footer {
 			opacity: 0;
+<<<<<<< HEAD
 		}
 <<<<<<< HEAD
                     * {box-sizing:border-box}
@@ -1692,3 +1692,6 @@
                                     }
 =======
 >>>>>>> 04946197905ced71852a255f67b3d1fe6dd54e49
+=======
+		}
+>>>>>>> parent of 864dd8c... .

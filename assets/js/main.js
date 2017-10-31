@@ -340,9 +340,12 @@
 				});
 <<<<<<< HEAD
                 
+<<<<<<< HEAD
                 
 =======
 
+=======
+>>>>>>> parent of 864dd8c... .
                 var slideIndex = 1;
                                 showSlides(slideIndex);
 
@@ -358,18 +361,31 @@
                                   var i;
                                   var slides = document.getElementsByClassName("mySlides");
                                   var dots = document.getElementsByClassName("dot");
+<<<<<<< HEAD
                                   if (n > slides.length) {slideIndex = 1}
                                   if (n < 1) {slideIndex = slides.length}
                                   for (i = 0; i < slides.length; i++) {
                                       slides[i].style.display = "none";
+=======
+                                  if (n > slides.length) {slideIndex = 1} 
+                                  if (n < 1) {slideIndex = slides.length}
+                                  for (i = 0; i < slides.length; i++) {
+                                      slides[i].style.display = "none"; 
+>>>>>>> parent of 864dd8c... .
                                   }
                                   for (i = 0; i < dots.length; i++) {
                                       dots[i].className = dots[i].className.replace(" active", "");
                                   }
+<<<<<<< HEAD
                                   slides[slideIndex-1].style.display = "block";
                                   dots[slideIndex-1].className += " active";
                                 }
 >>>>>>> 04946197905ced71852a255f67b3d1fe6dd54e49
+=======
+                                  slides[slideIndex-1].style.display = "block"; 
+                                  dots[slideIndex-1].className += " active";
+                                }
+>>>>>>> parent of 864dd8c... .
 
 				$window.on('hashchange', function(event) {
 
