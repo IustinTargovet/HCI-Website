@@ -882,13 +882,13 @@
 	}
 
 		table tbody tr {
-
+			
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-
+				
 			}
 
 		table td {
@@ -1479,7 +1479,6 @@
 			position: relative;
 			width: 60rem;
 			max-width: 100%;
-			max-height: 38rem;
 			background-color: rgba(4, 15, 50, 0.5);
 			border-radius: 4px;
 			opacity: 1;
@@ -1594,7 +1593,6 @@
 			opacity: 0;
 <<<<<<< HEAD
 		}
-<<<<<<< HEAD
                     * {box-sizing:border-box}
 
                                     /* Slideshow container */
@@ -1689,9 +1687,13 @@
                                     @keyframes fade {
                                       from {opacity: .4} 
                                       to {opacity: 1}
+<<<<<<< HEAD
                                     }
 =======
 >>>>>>> 04946197905ced71852a255f67b3d1fe6dd54e49
 =======
 		}
 >>>>>>> parent of 864dd8c... .
+=======
+                                    }
+>>>>>>> parent of ed80026... Merge branch 'master' of https://github.com/IustinTargovet/HCI-Website

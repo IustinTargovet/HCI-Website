@@ -338,10 +338,10 @@
 					}
 
 				});
-<<<<<<< HEAD
                 
 <<<<<<< HEAD
                 
+<<<<<<< HEAD
 =======
 
 =======
@@ -386,6 +386,8 @@
                                   dots[slideIndex-1].className += " active";
                                 }
 >>>>>>> parent of 864dd8c... .
+=======
+>>>>>>> parent of ed80026... Merge branch 'master' of https://github.com/IustinTargovet/HCI-Website
 
 				$window.on('hashchange', function(event) {
 
@@ -438,8 +440,8 @@
 						});
 
 				}
-
-
+        
+        
 
 			// Initialize.
 
