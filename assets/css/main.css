@@ -882,13 +882,13 @@
 	}
 
 		table tbody tr {
-			
+
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				
+
 			}
 
 		table td {
@@ -1479,6 +1479,7 @@
 			position: relative;
 			width: 60rem;
 			max-width: 100%;
+			max-height: 38rem;
 			background-color: rgba(4, 15, 50, 0.5);
 			border-radius: 4px;
 			opacity: 1;
@@ -1593,6 +1594,7 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+<<<<<<< HEAD
                     * {box-sizing:border-box}
 
                                     /* Slideshow container */
@@ -1688,3 +1690,5 @@
                                       from {opacity: .4} 
                                       to {opacity: 1}
                                     }
+=======
+>>>>>>> 04946197905ced71852a255f67b3d1fe6dd54e49
