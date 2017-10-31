@@ -882,13 +882,13 @@
 	}
 
 		table tbody tr {
-			
+
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				
+
 			}
 
 		table td {
